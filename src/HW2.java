@@ -13,7 +13,7 @@ public class HW2 {
         }
     }
 
-    public static int generateRandomAge() { // пункт
+    public static int generateRandomAge() { // 4 пункт
         Random genRandomAgeNumber = new Random();
         return genRandomAgeNumber.nextInt(100);  // Возраст от 0 до 99
     }
